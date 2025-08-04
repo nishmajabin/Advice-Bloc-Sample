@@ -1,5 +1,5 @@
 import 'package:advice_app_bloc_sample/controllers/bloc/advice_bloc.dart';
-import 'package:advice_app_bloc_sample/screens/home_screen.dart';
+import 'package:advice_app_bloc_sample/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -14,7 +14,7 @@ class AdviceBlocApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(create: (context) => AdviceBloc(),
     child: MaterialApp(
-        home: HomeScreen(),
+        home: SplashScreen(),
         debugShowCheckedModeBanner: false,
     ),);
   }

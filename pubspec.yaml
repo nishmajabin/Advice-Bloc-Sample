@@ -30,9 +30,11 @@ environment:
 dependencies:
   bloc: ^9.0.0
   cupertino_icons: ^1.0.8
+  flaticon: ^0.0.1
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  font_awesome_icon_class: ^0.0.6
   http: ^1.4.0
 
 dev_dependencies:
